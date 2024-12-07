@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "EN" 
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="model.Student" table="student">
+		<id name="sid" column="sid"></id>
+		<property name="sname" column="sname"></property>
+		<property name="sdept" column="sdept"></property>
+		<property name="phno" column="phno"></property>
+		<property name="cgpa" column="cgpa"></property>
+		<property name="graduationStatus" column="graduationStatus"></property>
+		<property name="program" column="program"></property>
+		<property name="noOfBacklogs" column="noOfBacklogs"></property>
+	</class>
+</hibernate-mapping>
